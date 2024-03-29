@@ -1,0 +1,35 @@
+#navbar {
+    background-color: #F4CE14;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    max-height: 130px;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+#navbar > div {
+    color: #45474B;
+    margin: 10px;
+    padding: 5%;
+    font-size: 30px;
+  }
+#nav-element-group {
+    color: #45474B;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+#nav-element-group > a {
+    color: #45474B;
+    display: inline-block;
+    padding: 5%;
+    letter-spacing: 1px;
+    transition: letter-spacing .1s;
+    text-align: center;
+    align-items: center;
+  }
+  #nav-element-group > a:hover {
+    letter-spacing: 4px;
+  }

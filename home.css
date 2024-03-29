@@ -1,0 +1,26 @@
+.content {
+  color: #45474B;
+  padding: 10px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  }
+.content > .content-element {
+    border: 3px;
+    border-style: solid;
+    border-color: #495E57;
+    padding: 20px;
+    color: #45474B;
+    background-color: bisque;
+    padding-top: 100px;
+    width: 75%;
+    height: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+#img {
+  border-color: black;
+  border-width: 1px;
+}

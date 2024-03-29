@@ -1,0 +1,22 @@
+.bottom {
+    background-color: #495E57;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F5F7F8; 
+    width: 100%;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.bottom > div{
+    padding-left: 20px;
+    padding: 10px;
+}
+.icon-container-bottom {
+    display: flex;
+    right: 80;
+}
+.icon {
+    padding-left: 10px;
+}
